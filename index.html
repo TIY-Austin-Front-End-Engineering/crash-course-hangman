@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hangman!</title>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+		<h1>Let's Play Hangman!</h1>
+		<div class="answer">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+			<input type="text" class="answer-input" disabled="disabled">
+		</div>
+		<form class="user-input">
+			<label for="guess">what's your guess?</label>
+			<input id="guess" type="text">
+		</form>
+		<div class="guesses">
+			<h3>Your guesses</h3>
+			<ul class="guessed-list">
+			</ul>
+		</div>
+		<script src="main.js" charset="utf-8"></script>
+	</body>
+</html>

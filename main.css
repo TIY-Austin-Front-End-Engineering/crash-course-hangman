@@ -1,0 +1,68 @@
+body {
+	color: #5E686F;
+	font-family: monospace;
+	text-align: center;
+}
+
+.answer-input {
+	width: 2rem;
+	display: inline-block;
+	border: 0;
+	border-bottom: 1px solid #083451;
+	font-size: 2rem;
+	text-align: center;
+	color: #106DB3;
+}
+
+.user-input {
+	margin: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	display: block;
+}
+
+#guess {
+	display: block;
+	margin: 0 auto;
+  text-shadow: 0px 0px 0px #5E686F;
+	padding: 1rem 1.5rem;
+	width: 2rem;
+	font-size: 2rem;
+	text-align: center;
+	color: transparent;;
+	-webkit-text-fill-color: transparent;
+}
+
+#guess::-webkit-input-placeholder {
+	color: initial;
+}
+
+#guess:focus {
+	outline: 1px solid #5E686F;
+}
+
+h3 {
+	text-align: center;
+}
+
+.guessed-list {
+	max-width: 29rem;
+	border: 1px solid #5E686F;
+	min-height: 11.6rem;
+	text-align: left;
+	margin: 0 auto;
+	padding: 1rem 0 0 0;
+	list-style: none;
+}
+
+.guessed-list li {
+	display: inline-block;
+	font-size: 1.5rem;
+	color: #631527;
+	background: #EFA4AC;
+	padding: .5rem 1rem;
+	border: solid 1px #631527;
+	margin: 0 0 1rem 1rem;
+}
